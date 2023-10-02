@@ -1,2 +1,2 @@
 #!/bin/bash
-tr "A" "A" | tr "c" "e"
+grep -v "bin" /etc/passwd
