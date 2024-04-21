@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-#Use a private key
+# Use a private key
 
-ssh ubuntu -i ~/.ssh/school
+ssh ubuntu -i ~/.ssh/school ubuntu@34.203.75.90
