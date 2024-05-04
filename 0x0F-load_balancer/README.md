@@ -9,3 +9,4 @@ Let’s improve our web stack so that there is redundancy for our web servers. T
 For this project, you will need to write Bash scripts to automate your work. All scripts must be designed to configure a brand new Ubuntu server to match the task requirements.
 
 https://s3.amazonaws.com/intranet-projects-files/holbertonschool-sysadmin_devops/275/qfdked8.png
+
