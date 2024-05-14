@@ -1,0 +1,22 @@
+# Checks if ufw is active
+sudo ufw status
+
+# Enable ufw
+sudo ufw enable
+
+# Install ufw
+sudo apt-get install -y ufw
+
+# Deny incoming traffic
+sudo ufw default deny incoming
+
+# Allow outgoing traffic
+sudo ufw default allow outgoing
+
+# Allow TCP ports
+sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw allow 443
+
+# Enable ufw by runnnig
+sudo ufw enable
